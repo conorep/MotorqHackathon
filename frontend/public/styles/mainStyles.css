@@ -1,0 +1,28 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#navBarStyles {
+    background-color: rgb(248, 249, 250);
+}
+
+#root {
+    background-color: #e7ecf1;
+    height: 100vh;
+}
+
+#map-container {
+    height: 80vh;
+}
+
+.leaflet-container {
+    height: 100%;
+    width: 80vw;
+    margin-left: 2rem;
+    border: black solid 5px;
+}
