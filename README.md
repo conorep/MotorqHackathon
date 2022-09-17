@@ -1,3 +1,17 @@
+# Project Info
+
+Author: Conor O'Brien
+Assignment: Motorq Hackathon
+
+This project was created in React, Node.js, Express, and MySQL. 
+
+React handles front end rendering and communicates with the MySQL database through interactions with Express. The project should allow a user to find a list of upcoming events and register for them, as well as provide an admin access to creating/deleting/altering events. 
+
+I got as far as creating an unstyled frontend with routes for the pages I needed to complete. The landing page pulls events from the database, and the map page displays a map that should have plotted points of upcoming events that can be registered to. The rest of the site remains unfinished. 
+
+The database itself has tables for users and events, as well as some views and a function associated with the means of retrieving data that I was hoping to implement in the time allotted.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,4 +84,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-### see Backedn folder for DB setup info!
+### see Backend folder for DB setup info!
